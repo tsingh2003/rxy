@@ -21,6 +21,8 @@ ryx <- function(data, y, x){
   return(results)
 }
 
+library(MASS)
 x <- ryx(Boston, y="medv")
-x
+print(x)
+summary(x)
 

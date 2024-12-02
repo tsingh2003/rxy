@@ -1,4 +1,4 @@
-summary_ryx <- function(object, ...) {
+summary.ryx <- function(object, ...) {
   cat("Correlating", object$y, "with", paste(object$x, collapse = " "), "\n")
   
   abs_cor <- abs(object$df$r)
