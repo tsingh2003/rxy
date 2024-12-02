@@ -25,4 +25,5 @@ library(MASS)
 x <- ryx(Boston, y="medv")
 print(x)
 summary(x)
+plot(x)
 

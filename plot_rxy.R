@@ -1,7 +1,5 @@
 plot.ryx <- function(x, ...) {
   library(ggplot2)
-  
-  # Create the ggplot
   ggplot(data = x$df, aes(x = reorder(variable, abs(r)), y = abs(r), color = r > 0)) +
     geom_point(size = 4) +
     geom_segment(aes(xend = reorder(variable, abs(r)), y = 0, yend = abs(r)), linetype = "dotted") +
