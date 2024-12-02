@@ -1,3 +1,14 @@
+#'@title Written summary of results
+#'@description Printing out a written summary of the results from the rxy function
+#'@export
+#'@param x the results from "rxy" function
+#'@returns A formatted written summary of the results of the "rxy" function
+#'@import MASS 
+#'@examples
+#'
+#'data(Boston)
+#'summary(ryx(Boston, y="medv"))
+
 summary.ryx <- function(object, ...) {
   cat("Correlating", object$y, "with", paste(object$x, collapse = " "), "\n")
   

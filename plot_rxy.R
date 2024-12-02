@@ -1,3 +1,15 @@
+#'@title RXY Plot Function
+#'@description Plots the correlations between a dependent variable y and one or more independent x variables.
+#'@export
+#'@param x the results from "rxy" function
+#'@returns A formatted plot of the results of the rxy function
+#'@import ggplot2
+#'@import MASS 
+#'
+#'@examples
+#'data(Boston)
+#'plot(ryx(Boston, y="medv"))
+
 plot.ryx <- function(x, ...) {
   library(ggplot2)
   ggplot(data = x$df, aes(x = reorder(variable, abs(r)), y = abs(r), color = r > 0)) +
@@ -14,4 +26,3 @@ plot.ryx <- function(x, ...) {
     theme_minimal() +
     theme()
 }
-plot(x)
