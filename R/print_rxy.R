@@ -1,4 +1,4 @@
-#'@title Printing RXY Function
+#'@title Printing RYX Function
 #'@description Prints RXY function in a neat clean way
 #'@export
 #'@param x the results from "rxy" function
