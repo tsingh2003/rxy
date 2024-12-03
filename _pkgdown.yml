@@ -1,0 +1,6 @@
+url: ~
+template:
+  home:
+  title: "Welcome to MyPackage"
+  image: man/figures/icon_points-1024x1024.png
+  bootstrap: 5
