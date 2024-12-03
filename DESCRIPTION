@@ -1,9 +1,9 @@
 Package: rxy
-Title: What the Package Does (One Line, Title Case)
+Title: Different outputs for correlations between y and x
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Tegh", "Singh", , "tsingh@wesleyan.edu", role = c("aut", "cre"))
+Description: This package contains 4 functions. The RXY function allows 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
