@@ -1,0 +1,30 @@
+---
+title: "Package Demonstration"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Plot_Function-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(rxy)
+```
+
+This package allows a user to be able to see the correlations between a dependent
+variable in a dataset and either an individual dependent variable or multiple dependent
+variables. There are different functions that allow for a user to be able to look at 
+the correlations. The plot function allows the correlations to be seen visually. The 
+print function allows the correlations to be seen in a chart. The summary function does not allow for all individual correlations to be seen, but provides a short script which contains what variables were looked at along with the range for the correlations, the median of the correlations, and how many variables had significant p-values. 
+
+
+
+
+

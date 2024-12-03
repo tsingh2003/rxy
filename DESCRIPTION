@@ -3,13 +3,7 @@ Title: Different outputs for correlations between y and x
 Version: 0.0.0.9000
 Authors@R: 
     person("Tegh", "Singh", , "tsingh@wesleyan.edu", role = c("aut", "cre"))
-Description: This package contains 4 functions. The RXY function calculates the 
-correlations between a dependent variable y and one or more independent x variables.
-The print function prints a table with the correlations between the dependent variable
-and the independent variable or variables. The plot function plots these correlations 
-and the summary function provides a written response of what independent variables and
-the dependent variables were compared along witht he median correlation, the range of
-correlations, and how many correlations had a significant p-value. 
+Description: This package contains 4 functions. The RXY function calculates the correlations between a dependent variable y and one or more independent x variables. The print function prints a table with the correlations between the dependent variable and the independent variable or variables. The plot function plots these correlations  and the summary function provides a written response of what independent variables and the dependent variables were compared along witht he median correlation, the range of correlations, and how many correlations had a significant p-value. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
