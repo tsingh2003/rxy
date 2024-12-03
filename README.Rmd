@@ -1,0 +1,12 @@
+---
+title: "README"
+author: "Tegh Singh"
+date: "2024-12-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+

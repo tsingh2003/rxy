@@ -18,6 +18,8 @@ knitr::opts_chunk$set(
 library(rxy)
 ```
 
+Welcome to the RXY Package
+
 This package allows a user to be able to see the correlations between a dependent
 variable in a dataset and either an individual dependent variable or multiple dependent
 variables. There are different functions that allow for a user to be able to look at 
