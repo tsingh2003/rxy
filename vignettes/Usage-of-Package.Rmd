@@ -27,7 +27,6 @@ the correlations. The plot function allows the correlations to be seen visually.
 print function allows the correlations to be seen in a chart. The summary function does not allow for all individual correlations to be seen, but provides a short script which contains what variables were looked at along with the range for the correlations, the median of the correlations, and how many variables had significant p-values. 
 
 
-![Correlation Image](rxy/docs/IMAGE.png)
 
 
 
