@@ -5,7 +5,7 @@
 #'@returns A formatted written summary of the results of the "rxy" function
 #'@import MASS 
 #'@examples
-#'
+#'library(MASS)
 #'data(Boston)
 #'summary(ryx(Boston, y="medv"))
 

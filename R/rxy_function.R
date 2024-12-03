@@ -7,7 +7,7 @@
 #'@returns returns a chart with the correlations of y with x with their r values and p-values
 #'@import MASS 
 #'@examples
-#'
+#'library(MASS)
 #'data(Boston)
 #'summary(ryx(Boston, y="medv"))
 
@@ -35,9 +35,5 @@ ryx <- function(data, y, x){
   return(results)
 }
 
-library(MASS)
-x <- ryx(Boston, y="medv")
-print(x)
-summary(x)
-plot(x)
+
 

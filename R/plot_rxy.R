@@ -7,6 +7,7 @@
 #'@import MASS 
 #'
 #'@examples
+#'library(MASS)
 #'data(Boston)
 #'plot(ryx(Boston, y="medv"))
 

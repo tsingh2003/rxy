@@ -7,6 +7,7 @@ Description: This package contains 4 functions. The RXY function calculates the 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+Imports: MASS, ggplot2
 RoxygenNote: 7.3.2
 Suggests: 
     knitr,

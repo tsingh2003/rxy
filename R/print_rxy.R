@@ -6,6 +6,7 @@
 #'
 #'@import MASS 
 #'@examples
+#'library(MASS)
 #'data(Boston)
 #'print(ryx(Boston, y="medv"))
 
