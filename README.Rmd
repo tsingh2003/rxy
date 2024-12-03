@@ -9,20 +9,5 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
-title: "Welcome to My Package"
-output: pkgdown::html_document
-
-# Introduction
-
-This is the main page of the documentation for **MyPackage**.
-
-## Example Image
-
-Below is an example image:
-
 ![My Example Image](docs/IMAGE.png)
 
-## More Content
-
-Content of the package's documentation goes here.
