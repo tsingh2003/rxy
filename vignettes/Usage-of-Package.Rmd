@@ -1,5 +1,5 @@
 ---
-title: "Package Demonstration"
+title: "Package Description"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Plot_Function-vignette}

@@ -1,6 +1,6 @@
 url: ~
+home:
+  title: "MyPackage Documentation"
+  image: "man/figures/my_image.png"
 template:
-  home:
-  title: "Welcome to MyPackage"
-  image: man/figures/icon_points-1024x1024.png
   bootstrap: 5
